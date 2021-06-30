@@ -17,7 +17,7 @@ body {
 h1 {
     color: rgb(0, 211, 53);
     letter-spacing: 27px;
-    font-size: 3rem
+    font-size: 3rem;
 }
 canvas {
     background-color: rgb(0, 0, 0);
@@ -71,4 +71,83 @@ canvas {
 
 #game-over h2 {
 color: red ;
+}
+
+@media (min-width: 650px) and (max-width:750px ) {
+    h1{
+        letter-spacing: 20px;
+        font-size: 2rem;
+    }
+    canvas {
+    width :400px;
+    height : 400px;
+    }
+    #game-over {
+    font-size: 1.5rem;
+    }
+}
+@media (min-width: 550px) and (max-width:650px ) {
+    h1{
+        letter-spacing: 20px;
+        font-size: 2rem;
+    }
+    canvas {
+    width :400px;
+    height : 400px;
+    }
+    #game-over {
+        bottom: 11rem;
+        font-size: 20px;
+    }
+}
+@media (min-width: 450px) and (max-width:550px ) {
+    h1{
+        letter-spacing: 15px;
+        font-size: 2rem;
+    }
+    canvas {
+    width :350px;
+    height : 400px;
+    }
+    #game-over {
+        bottom: 11rem;
+        font-size: 14px;
+        font-size: 13px;
+    }
+}
+@media (min-width: 350px) and (max-width:450px ) {
+    h1{
+        letter-spacing: 10px;
+        font-size: 2rem;
+    }
+    canvas {
+        width :270px;
+        height : 400px;
+    }
+    #start-menu{
+        letter-spacing: 0px;
+    }
+    #game-over {
+        bottom: 16rem;
+        font-size: 11px;
+        padding: 3.7rem;
+    }
+}
+@media (min-width: 50px) and (max-width:350px ) {
+    h1{
+        letter-spacing: 10px;
+        font-size: 2rem;
+    }
+    canvas {
+        width :270px;
+        height : 400px;
+    }
+    #start-menu{
+        letter-spacing: 0px;
+    }
+    #game-over {
+        bottom: 19rem;
+        font-size: 13px;
+        padding: 0.7rem;
+    }
 }
